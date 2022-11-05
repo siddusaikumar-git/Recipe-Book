@@ -22,7 +22,7 @@ export class RecipeService {
         new Recipe(
             'Vegetarian Burger', 
             'A carving recipe of Burger with buns, cheese and love', 
-            'https://www.thespruceeats.com/thmb/cCEhl8FFYWZg1ZVwZHmwscE-cYw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/vegetarian-and-vegan-black-bean-burgers-3378619-hero-01-554b991814e7456a90272026447da2d9.jpg',
+            'http://www.yummyfoodrecipes.in/resources/picture/org/Spicy-Paneer-Burge.jpg',
             [
                 new Ingredient('buns', 2),
                 new Ingredient('potato', 1),
@@ -34,6 +34,11 @@ export class RecipeService {
       ]; 
     
     constructor(private slService: ShoppingListService){}
+    
+    getRecipe(index: number){
+        return this.recipes[index];
+    }
+    
     getRecipes() {
         return this.recipes.slice();
     }
