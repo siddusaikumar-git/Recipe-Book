@@ -1,6 +1,6 @@
 import { Subject } from "rxjs";
 
-import { Ingredient } from "../shared/ingredient.mode";
+import { Ingredient } from "../shared/ingredient.model";
 
 export class ShoppingListService {
 
