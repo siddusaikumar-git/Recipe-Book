@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "ng-recipe-book-cf42a"
-  }
+    "default": "recipebook-k22",
+    "prod": "recipebook-k22"
+  },
+  "targets": {},
+  "etags": {}
 }
