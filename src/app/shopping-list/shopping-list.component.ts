@@ -22,6 +22,7 @@ export class ShoppingListComponent implements OnInit, OnDestroy {
         this.ingredients = ingredients;
       }
     );
+
   }
 
   ngOnDestroy(): void {
